@@ -25,6 +25,7 @@ class Node
 class LL 
 {
     public:
+    Node* head;
     LL()
     {
         this->head = nullptr;  
@@ -64,7 +65,6 @@ class LL
             temp = temp->return_next();
         }
     }
-    Node* head;
 }; 
 
 
